@@ -1,0 +1,563 @@
+* 
+{
+    margin:0;
+    padding:0;
+    border:0;
+    text-decoration:none;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin:auto;
+    font-family:'merriweather', 'Times New Roman', Times, serif; 
+}
+
+.contenedor-global { 
+    width: 90%;
+     margin:auto; 
+     display:flex; 
+     flex-direction:column;
+     flex-wrap:wrap; }
+
+@font-face 
+{ 
+    font-family:'WebSymbols-regular';
+    src: url('WebSymbols-Regular.otf') format('opentype'); 
+    font-weight: normal; font-style: normal;
+}
+
+.comunicacion 
+{   
+    display:flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;
+    width: 100%; 
+    background-color: gainsboro;
+    padding:1%;
+    height:40%;
+    
+}
+
+#contacto1 
+{
+    width: 30%; 
+    list-style: none; 
+    text-decoration: none;
+ } 
+ #contacto1 li { 
+    float:left; 
+    padding:2px; 
+}
+
+ #contacto1 li  p{ 
+    float:right; 
+    margin:5px;
+}
+
+.icon-tel 
+{
+    font-family: 'WebSymbols-Regular';
+    font-size:small; 
+    color:gray; 
+    margin:5px;
+}
+
+.icon-tel:hover, .icon-mail:hover, .icon-tel span:hover, .icon-mail span:hover {
+    color: orange; 
+}
+
+.icon-tel p 
+{
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+.icon-mail
+ {
+    font-family: 'WebSymbols-Regular'; 
+    font-size:small;
+    color:gray; 
+    margin:5px;
+}
+
+.icon-mail p 
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contacto2 
+{
+    width: 20%;
+    list-style: none;
+    text-decoration: none; 
+    display: inline-block;
+    text-align:right; 
+ } 
+
+ #contacto2 li a {
+    float:left; 
+    color:gray; 
+    padding:4%;}
+
+ #contacto2 li a:hover { 
+    color:orange;
+}
+ 
+
+ .icon-facebook
+ {
+    font-family: 'WebSymbols-Regular'; 
+    font-size:small;
+    color:gray; }
+
+
+    .icon-twitter
+ {
+    font-family: 'WebSymbols-Regular'; 
+    font-size:small;
+    color:gray; 
+}
+
+    .icon-linkedin
+ {
+    font-family: 'WebSymbols-Regular'; 
+    font-size:small;
+    color:gray; 
+}
+
+    .icon-deporte span
+ { 
+    font-size:18px;
+    color:gray;  
+}
+
+.icon-deporte span:hover { 
+      color: orange;  
+}
+   
+    .icon-google
+ {
+    font-family: 'WebSymbols-Regular'; 
+    font-size:small;
+    color:gray;  
+}
+
+.menu-uno {
+    width:100%; 
+    padding:3%; 
+    margin:2%; 
+    display:flex; 
+    flex-direction:row; 
+    flex-wrap: wrap;  
+    justify-content: right; 
+}
+
+.menu-uno a {
+    padding:1%; 
+    text-decoration:none; 
+    color:gray; 
+}
+
+.menu-uno a:hover {
+    background-color:orange;  
+}
+
+.categorias a {
+    width:100%;
+}
+.categorias a span {
+    float:right;
+}
+
+.marcas a {
+    width:100%; 
+}
+.marcas a p {
+    float: right; 
+}
+
+.rango {
+    margin:4%; 
+}
+
+#slider { 
+    margin: 4px 4px;   
+}
+
+.rango label p {
+     margin-right:20%; ; 
+     font-size:small; 
+     float:left;
+}
+
+#start {
+    margin-left:5%; 
+}
+
+
+.menu-dos-columna { 
+    width:25%; 
+    display:flex; 
+    flex-direction: column; 
+    flex-wrap: wrap;  
+}
+
+.menu-dos-columna a {
+    display:block; 
+    text-decoration:none; 
+    color: gray; 
+    margin:2%;  
+}
+.menu-dos-columna h2 {
+    color:orange; 
+    margin:2%;  
+}
+
+.menu-dos-columna div {
+    margin:2%; 
+    padding:3%; 
+}
+
+.categorias a:hover, .marcas a:hover {
+    width:100%; 
+    background-color:rgb(225, 186, 113); 
+    border:1px solid gray; 
+    border-radius: 20px;
+    padding:3%; 
+    color:black; 
+}
+
+
+.contenido-principal {
+    width:100%; 
+    display:flex; 
+    flex-direction:row; 
+    flex-wrap: wrap; 
+    margin:2%;
+} 
+
+
+.articulos h2  {
+    color:orange; 
+    margin:2%; 
+    width:100%; 
+    text-align:center;  
+}
+
+.articulos {
+    width:75%;
+    display:flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content:space-between;
+}
+
+.img {
+    width:150px; 
+    height:150px;
+    margin:2%;  
+}
+
+.sub-articulos, .sub-articulos span{
+    font-size:12px; 
+    color:grey; 
+    float:left;
+}
+
+.sub-articulos:hover {
+    color:white; 
+}
+
+
+
+.material-icons-outlined {
+    color:gray;
+    float:left;
+}
+
+.shopping {
+    padding:3%; 
+    margin:2%; 
+}
+
+.shopping:hover { 
+    background-color: antiquewhite;
+}
+.shopping p {
+    font-size:14px; 
+    color:gray; 
+    float:left; 
+}
+
+.precio-articulos { 
+    color:orange;
+    text-align:center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+    
+.contenedor-imagenes { 
+    text-align:center; 
+    border: 1px solid rgb(202, 202, 202); 
+    padding:1%; 
+    margin:1%; 
+}
+
+#contenedor-art4 {
+    position:relative; 
+}
+#sale {width:30px; 
+    position:absolute;  
+    top:0; 
+    right:0;
+}
+
+#oferta {
+    width:30px; 
+    height:30px;
+}
+
+#new {
+    width:30px; 
+    position:absolute;  
+    top:0; 
+    right:0;
+}
+
+#contenedor-art5 {
+    position:relative; 
+}
+#nuevo  { 
+    width:30px; 
+    height:30px;
+}
+
+.contenedor-imagenes:hover {
+    background-color:orange; 
+    border:none; 
+}
+.contenedor-imagenes:hover .img {
+    visibility: hidden; 
+    opacity:100%; 
+}
+.contenedor-imagenes:hover span {
+    color:orange;
+}
+.contenedor-imagenes:hover .shopping p {
+    color:orange; 
+}
+.nombre-hover 
+{color:transparent;
+}
+
+.contenedor-imagenes:hover .nombre-hover { 
+    color: white; 
+    font-size:20px; 
+    text-align:center;
+}
+.contenedor-imagenes:hover  #nuevo { 
+    visibility: hidden;
+}
+.contenedor-imagenes:hover  #oferta { 
+    visibility: hidden;
+}
+
+
+.menu-3 { 
+    width:100%; 
+    text-align:right; 
+}
+.menu-tres { 
+    display:flex; 
+    flex-direction:row; 
+    flex-wrap:wrap; 
+    width:80%; 
+    background-color: gray; 
+    text-align:left; 
+    float:right; 
+    margin:1%;
+}
+.menu-tres a {  
+    padding: 2%; 
+    color:white; 
+}
+.menu-tres a:hover { 
+    background-color: orange; 
+}
+
+.productos { 
+    width: 100%;  
+    display:flex; 
+    flex-direction: row; 
+    flex-wrap:wrap; 
+    margin:2%; 
+    justify-content:right; 
+}
+
+.imagenes-productos {
+    display:flex; 
+    flex-direction: row; 
+    flex-wrap:wrap;
+    width:20%; 
+    display:block; 
+    text-align:center;  
+    margin:1%;
+    border:1px solid gray;
+}
+
+.imagenes-productos img {
+    width: 100px; 
+    height:100px; 
+}
+
+
+.pie-pagina  {
+    display:flex; 
+    flex-direction:row; 
+    flex-wrap: wrap; 
+    width:100%; 
+    background-color: rgb(243, 238, 238);
+}
+.pie-pagina div { 
+    margin:4%; 
+}
+
+.pie-pagina a {
+    display: block; 
+    color: gray; 
+    text-decoration:none; 
+    padding:2%; 
+    font-size:12px; 
+}
+.pie-pagina h3 { 
+    color: gray; 
+    padding:1%;  
+}
+
+.pie-pagina a:hover {
+    color:orange; 
+}
+
+
+form {
+    border:1px solid gray; 
+    width:30%; 
+    margin:2%; 
+    padding:1%;
+    text-align:center; 
+    color:gray; 
+    text-align:center; 
+    font-size:12px;   
+}
+form h3 {
+    color:orange; 
+    letter-spacing: 2px; 
+    margin:2%; 
+}
+.datos  { 
+    padding:2%; 
+}
+.datos input {
+    padding:3%; 
+    margin:1%; 
+    background-color:antiquewhite; 
+    border-top:2px solid orange;
+    border-bottom:2px solid orange; 
+    font-size:10px; 
+}
+.datos input:hover { 
+    padding:6%; 
+    background-color:rgb(255, 193, 70);
+}
+#crear-cuenta {
+    padding:4%; 
+    background-color: rgb(243, 210, 167); 
+    border-radius: 20px; 
+    color:orange;
+}
+
+
+
+/* media queries */ 
+
+@media screen and (max-width:700px) { 
+.contenedor-global {
+    margin:3px; 
+}
+.comunicacion{ 
+    flex-direction:column; 
+    justify-content:left; 
+    width:100%; 
+}
+#contacto1, #contacto2 {
+    width:100%; 
+}
+.menu-uno {
+    flex-direction: column; 
+    align-items: left;
+}
+.menu-dos-columna {
+    width:100%; 
+} 
+.contenido-principal {
+    flex-direction: column; 
+    width:100%; 
+}
+.contenido-principal h2 {
+    text-align:left; 
+}
+.articulos {
+    flex-direction: column; 
+    width:100%; 
+} 
+.menu-tres {
+    flex-direction:column; 
+    flex-wrap:wrap; 
+    width:100%;
+}
+.productos {
+    flex-direction:column; 
+    justify-content:center; 
+    width:100%; 
+}
+.pie-pagina {
+    flex-direction:column; 
+    flex-wrap: wrap; 
+    padding-bottom: 1%; 
+    width:100%; 
+}
+.pie-pagina a {
+    padding:1%; 
+}
+.imagenes-productos { 
+    width:100%; 
+}
+.contenedor-imagenes {
+    padding:8%; 
+}
+.categorias {
+    width:100%
+}
+.marcas {
+    width:100%;
+}
+.rango{
+    width:100%; 
+}
+form {
+    width:100%;
+ }
+}
+
+
+@media screen and (min-width:1200px) {
+.articulos img { 
+     width:240px;
+     height:240px;
+}
+}
+
+
+
+
+
+
+  
